@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    
+    color: white;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    background-image: url(02.jpg);
+}
+
+h1{
+    margin: 30px 5px;
+
+}
+#container{
+    width: 405px;
+    margin: 20px auto;
+    border: 1px solid rgb(94, 2, 2);
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 0px 20px rgb(114, 0, 0);
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+
+#messages{
+    width: 95%;
+    max-width: 400px;
+    height: 500px;
+    overflow-y: scroll;
+    background-image: url(01.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 10px;
+
+    
+}
+
+.message, .messenger{
+    
+    
+    padding: 3px;
+   
+    box-shadow: 5px 5px 10px black;
+    /*background: rgba(90, 0, 0, 0.575);*/
+  
+    width: fit-content;
+
+}
+
+
+.messenger{
+    background: linear-gradient(90deg, rgba(240, 3, 3, 0.555) 0%, rgba(249, 149, 0, 0.555) 49%, rgba(255, 200, 0, 0.562) 100%);
+
+    margin: 20px 10px 0px;
+    border-top-right-radius: 10px;
+    /*border-top-left-radius: 10px;*/
+    border-bottom-right-radius: 10px;
+    color: rgb(80, 0, 0);
+
+}
+.message{
+    background: linear-gradient(90deg, rgba(240, 3, 3, 0.555) 0%, rgba(249, 149, 0, 0.555) 49%, rgba(255, 200, 0, 0.562) 100%);
+
+    margin: 0px 10px 10px;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*border-bottom-left-radius: 10px;*/
+    color: white;
+}
+
+.textcontainer{
+    width: fit-content;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    width: 390px;
+    margin-left: 10px;
+}
+
+.form{
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Sriracha', cursive;
+    padding-left: 5px;
+}
+
+#text{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Sriracha', cursive;
+    padding-left: 5px;
+
+}
+
+#submit{
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background: purple;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Sriracha', cursive;
+
+}
+
+
+
+
+::-webkit-scrollbar-corner {
+    border-radius: 2px;
+    background: red;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: #2c2b2b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #990202;
+    border-radius: 20px;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: red;
+    border-radius: 20px;
+    width: 10px;
+  }
+
